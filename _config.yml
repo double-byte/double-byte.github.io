@@ -1,7 +1,7 @@
 # Site settings
 title: doublebyte blog
 description: '' # write a nice description for your blog
-baseurl: '/' # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: 'http://double-byte.github.io' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 twitter_username: 'atnurgaliev'

@@ -57,6 +57,9 @@ a:hover {
 .page-header {
   color: #fff;
   text-align: center;
+}
+
+.page-header-index {
   background: #56687C url('../img/cover2.jpg') no-repeat 50%;
   background-size: cover;
 }
@@ -258,9 +261,6 @@ a:hover {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-
-}
 
 .post-meta {
     padding-left: 1.5rem;

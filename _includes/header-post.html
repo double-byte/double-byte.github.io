@@ -1,0 +1,12 @@
+<header class="page-header">
+    <h1 class="project-name"> <a class="header-link" href="{{ page.url }}"> {{ page.title }}</a></h1>
+    <h3>
+        {% if page.author %}{{page.author}}<br>{% endif %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </h3>
+</header>
+<script>
+    $(function(){
+        $('.page-header').geopattern($('.project-name').text());
+    });
+</script>

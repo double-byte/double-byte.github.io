@@ -7,8 +7,12 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+    <script src="{{site.baseurl}}/scripts/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/scripts/geopattern.min.js"></script>
+    <!--[if IE 9]>
+    <script src="{{site.baseurl}}/scripts/base64.min.js"></script>
+    <script src="{{site.baseurl}}/scripts/typedarray.min.js"></script>
+    <![endif]-->
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 

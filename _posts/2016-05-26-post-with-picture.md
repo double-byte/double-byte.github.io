@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Post with image
 layout: post
 ---

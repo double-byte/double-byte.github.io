@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Blog on GitHub Pages
 

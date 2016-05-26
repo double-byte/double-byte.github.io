@@ -1,5 +1,6 @@
 ---
 published: true
+title: GutHub Pages blog
 ---
 Apps and services to create and manage blog on [GitHub Pages](https://pages.github.com/).
 

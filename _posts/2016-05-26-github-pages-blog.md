@@ -1,6 +1,7 @@
 ---
 published: true
 title: GitHub Pages blog
+layout: post
 ---
 Apps and services to create and manage blog on [GitHub Pages](https://pages.github.com/).
 

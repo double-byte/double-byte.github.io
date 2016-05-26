@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-## Blog on GitHub Pages
-
 Apps and services to create and manage blog on [GitHub Pages](https://pages.github.com/).
 
 - [Prose.io](http://prose.io/) Source code: [https://github.com/prose/prose](https://github.com/prose/prose)
